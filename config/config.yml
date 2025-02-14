@@ -1,0 +1,7 @@
+services:
+  car_detector:
+    model_path: 'weights/best.onnx'  # Путь к модели YOLO
+    device: ${oc.env:DEVICE,'cpu'}  # Устройство (GPU/CPU), по умолчанию CPU
+  server:
+    host: ${oc.env:HOST,'0.0.0.0'}  # Хост, по умолчанию 0.0.0.0
+    port: ${oc.env:PORT,'8000'}      # Порт, по умолчанию 8000

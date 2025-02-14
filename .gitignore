@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Виртуальная среда
+venv/
+env/
+.venv/
+
+# Конфигурационные файлы IDE/редакторов
+.vscode/
+.idea/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Jupyter Notebook checkpoint files
+.ipynb_checkpoints/
+
+# Кэшированные файлы pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Docker-файлы и папки
+docker-compose.override.yml
+Dockerfile
+*.dockerignore
+
+# Файлы среды разработки
+*.env
+*.local
