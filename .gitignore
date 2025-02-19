@@ -30,7 +30,7 @@ pip-delete-this-directory.txt
 
 # Docker-файлы и папки
 docker-compose.override.yml
-Dockerfile
+#Dockerfile
 *.dockerignore
 
 # Файлы среды разработки
